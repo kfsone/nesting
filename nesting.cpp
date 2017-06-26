@@ -1,6 +1,7 @@
+//#define NOMINMAX  // << On Windows, uncomment to fix.
 #include "nesting.h"
 
-#include <cmath>
+#include <algorithm>
 
 int main()
 {
