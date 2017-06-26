@@ -1,0 +1,36 @@
+# vim working files
+*.swp
+
+# Build folder
+build/
+
+# cmake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# build files
+Makefile
+*.sln
+*.vcproj
+*.vproj
+*.xproj
+*.xml
+*.json
+*.ninja
+.ninja_*
+*.kde*
+*.cbp
+
+# IDE folders
+.idea/
+.vs/
+Debug/
+Release/
+.project/
+.cproject/
+
+# Binary
+nesting
+nesting.exe
+
