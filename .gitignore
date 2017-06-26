@@ -12,6 +12,9 @@ cmake_install.cmake
 # build files
 Makefile
 *.sln
+*.vcxproj
+*.filters
+*.user
 *.vcproj
 *.vproj
 *.xproj
@@ -22,15 +25,22 @@ Makefile
 *.kde*
 *.cbp
 
-# IDE folders
+# IDE folders/files
 .idea/
 .vs/
 Debug/
 Release/
 .project/
 .cproject/
+*.VC.VC.opendb
+*.VC.db
 
-# Binary
+# Build artifacts
+*.o
+*.exe
+*.log
+*.pdb
+*.a
+*.lib
 nesting
-nesting.exe
 
